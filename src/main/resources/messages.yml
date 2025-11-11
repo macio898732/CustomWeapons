@@ -1,0 +1,137 @@
+bedrockbreaker:
+  received: "&aYou received a &6Bedrock Breaker!"
+  success: "&a&lSuccessfully broke the bedrock!"
+  fail: "&c&lThis item only works on bedrock!"
+axe30:
+  received: "&aYou received an Executioner's Axe!"
+  used: "&c&lExecutioner's Axe used! Dealt %damage% damage! Cooldown: %cooldown% seconds"
+  cooldown: "&cYou cannot use this ability for %cooldown% more seconds!"
+  not_player: "&cYou must target a player to use this ability!"
+lootbundle:
+  received: "&aYou have received the &6Loot Bundle&a!"
+  loot_added: "&aAll loot from %victim% has been added to your &6Loot Bundle&a!"
+bloodthirster:
+  received: "&aYou received the &cBloodthirster &asword!"
+  heal: "&cBloodthirster &7stole some health from your enemy!"
+  drained: "&c%attacker% drained some of your health!"
+carrotcrossbow:
+  received: "&aYou have received a &6Carrot Crossbow&a!"
+  pulled: "&6Pulled! &7You pulled %victim% toward you!"
+  pulled_victim: "&cPulled! &7You were pulled toward %shooter%!"
+  missed: "&cMissed! &7Your arrow didn't hit anyone!"
+bunnysword:
+  received: "&aYou have received the &bBunny Sword&a!"
+  jump_blocked: "&bJump Blocked! &7You blocked %victim%'s ability to jump!"
+  jump_blocked_victim: "&cJump Blocked! &7Your ability to jump was blocked by %attacker%!"
+  cooldown: "&cThe Bunny Sword is on cooldown! Please wait &e%time% &cseconds."
+  ready: "&aYour Bunny Sword is ready to use again!"
+  no_jump: "&cYou can't jump right now!"
+chorussword:
+  received: "&aYou have received a &dChorus Sword&a!"
+  frozen: "&5Frozen! &7You froze %victim% for 3 seconds!"
+  frozen_victim: "&cFrozen! &7You were frozen by %attacker%!"
+  cooldown: "&cThe Chorus Sword is on cooldown! Please wait &e%time% &cseconds."
+  ready: "&aYour Chorus Sword is ready to use again!"
+  no_move: "&cYou are frozen and cannot move!"
+coffee:
+  received: "&aYou received a Radioactive Coffee!"
+  energized: "&a&lFeeling radioactively energized!"
+  crash: "&c&lRadioactive crash!"
+crown:
+  received: "&aYou have received the &6Crown of Anarchy&a!"
+  effects_on: "&6You feel the power of the &6Crown of Anarchy&6!"
+  effects_off: "&cYou feel the power of the &6Crown of Anarchy &cleave you!"
+cookie:
+  received: "&aYou received a special cookie from Grandma!"
+  effect: "&eGrandma's Cookie makes you stronger!"
+rubikscube:
+  enchanted: "&aYour skull has been enchanted with Rubik's powers!"
+  must_hold: "&cYou must be holding a player head!"
+  no_charges: "&c✖ No Charges! &7This Rubik's Cube is depleted"
+  scrambled: "&a&lSCRAMBLED! &eYou scrambled %victim%'s hotbar!"
+  scrambled_victim: "&c&lSCRAMBLED! &7Your hotbar has been scrambled!"
+cubanskull:
+  enchanted: "&aYour skull has been enchanted with Cuban powers!"
+  must_hold: "&cYou must be holding a player head!"
+  no_charges: "&c✖ No Charges! &7This skull is depleted"
+  trapped: "&a&lTRAPPED! &e%victim% has been trapped!"
+  trapped_victim: "&c&lTRAPPED! &7Trapped for 6 seconds!"
+  warning: "&e&lWARNING! &72 seconds remaining"
+  final_warning: "&c&lFINAL WARNING! &7Disappearing in 1 second!"
+  freed: "&a&lFREED! &7The sphere has disappeared"
+  freed_victim: "&a&lFREE! &7The sphere has disappeared"
+dynamite:
+  received: "&7You received a &cDynamite&7. Right-click to throw!"
+cupidsbow:
+  received: "&aReceived Cupid's Bow!"
+  no_effect: "&c❤ The love arrow had no effect!"
+  weakened: "&dWeakened! &7You weakened %victim%!"
+  weakened_victim: "&cWeakened! &7By %attacker%'s Cupid's Bow!"
+explosivecharge:
+  received: "&aYou received an Explosive Charge!"
+  cannot_use_spawn: "&cYou cannot use Explosive Charge in spawn!"
+  cannot_place: "&cYou cannot place this Explosive Charge!"
+dragonfirework:
+  received: "&dYou received a Dragon Firework!"
+  cooldown: "&cYou must wait 3 seconds before using this again!"
+trollsrose:
+  received: "&aYou have received the &x&0&0&9&9&2&B&lT&x&0&D&9&1&2&B&lr&x&1&9&8&9&2&C&lo&x&2&6&8&2&2&C&ll&x&3&2&7&A&2&D&ll&x&3&F&7&2&2&D&l'&x&4&B&6&A&2&D&ls &x&5&8&6&2&2&E&lr&x&6&4&5&B&2&E&lo&x&7&1&5&3&2&F&ls&x&7&D&4&B&2&F&le&a!"
+  power: "&aYou feel the power of the Troll's Rose!"
+  fade: "&cThe power of the Troll's Rose fades away..."
+pumpkinsword:
+  received: "&aYou have received the Pumpkin Sword!"
+  cursed: "&c&lYou can't remove this cursed pumpkin!"
+  onhead: "&6&lA pumpkin has been placed on your head!"
+  placed: "&6&lYou placed a pumpkin on your enemy's head!"
+  wornoff: "&6&lThe cursed pumpkin has worn off!"
+grapplinghook:
+  received: "&aYou have received a Grappling Hook!"
+  used: "&eYou used the Grappling Hook!"
+flyrod:
+  received: "&aYou have received the Fly Rod!"
+  disabled: "&cYour Elytra has been disabled!"
+parawan:
+  received: "&aYou have received the Parawan!"
+  pushed: "&eYou pushed away nearby entities!"
+gravityaxe:
+  received: "&aYou have received the Gravity Axe!"
+  pulled: "&eYou pulled entities toward you!"
+poisonpencil:
+  received: "&aYou have received the Poison Pencil!"
+  poisoned: "&aYou have poisoned your enemy!"
+  cooldown: "&cThe Poison Pencil is on cooldown!"
+areaminerpickaxe:
+  received: "&aYou have received the Area Miner Pickaxe!"
+  mined: "&eYou mined a 3x3 area!"
+# General
+no_permission: "&cYou do not have permission to use this!"
+cooldown: "&cThis item is on cooldown!"
+swapball:
+  received: "&aYou have received the &bSwap Snowball&a!"
+  swapped: "&bSwapped! &7You swapped places with %victim%!"
+  swapped_victim: "&cSwapped! &7You were swapped with %shooter%!"
+  missed: "&cMissed! &7Your snowball didn't hit anyone!"
+
+soup:
+  received: "&aYou have received the &cHealing Beetroot Soup&a!"
+  healed: "&aYou have been healed to full health!"
+
+totemofpardon:
+  received: "&aYou have received a &6Totem of Pardon&a!"
+  saved: "&6&lYour Totem of Pardon has saved your inventory!"
+  broadcast: "&6%player% was saved from losing their items by a &lTotem of Pardon!"
+
+tempesthammer:
+  received: "&bYou received the Tempest Hammer!"
+  cooldown: "&c&lTempest Hammer is on cooldown!"
+  used: "&b&lTHUNDERCLAP! &7You summoned a storm!"
+
+unbreakablewall:
+  received: "&aYou received the Unbreakable Wall shield!"
+  cooldown: "&c&lCooldown: &fYou must wait %time% seconds!"
+  invincible: "&6&lUNBREAKABLE &7You are invincible for 10 seconds!"
+  worn_off: "&c&lShield effect has worn off!"
+
+warmmilk:
+  received: "&7You received a Warm Milk!"
+  cleansed: "&aAll negative effects have been removed!"

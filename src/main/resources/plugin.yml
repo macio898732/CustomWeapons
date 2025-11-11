@@ -1,0 +1,289 @@
+name: CustomWeapons
+main: com.customweapons.CustomWeapons
+version: 1.0
+api-version: 1.20
+author: Terax
+description: Adds custom weapons and items with unique effects.
+
+commands:
+  bedrockbreaker:
+    description: Gives a Bedrock Breaker pickaxe.
+    usage: /bedrockbreaker
+    permission: bedrockbreaker.give
+  axe30:
+    description: Gives an Executioner's Axe.
+    usage: /axe30
+    permission: axe30.give
+  lootbundle:
+    description: Gives a Loot Bundle book.
+    usage: /lootbundle
+    permission: lootbundle.give
+  getblade:
+    description: Gives a Bloodthirster sword.
+    usage: /getblade
+    permission: bloodthirster.get
+  carrotcrossbow:
+    description: Gives a Carrot Crossbow.
+    usage: /carrotcrossbow
+    permission: carrotcrossbow.give
+  bunnysword:
+    description: Gives a Bunny Sword.
+    usage: /bunnysword
+    permission: bunnysword.give
+  chorussword:
+    description: Gives a Chorus Sword.
+    usage: /chorussword
+    permission: chorussword.give
+  getcoffee:
+    description: Gives Radioactive Coffee.
+    usage: /getcoffee
+    permission: coffee.give
+  crownofanarchy:
+    description: Gives the Crown of Anarchy.
+    usage: /crownofanarchy
+    permission: crownofanarchy.give
+  getcookie:
+    description: Gives Grandma's Cookie.
+    usage: /getcookie
+    permission: cookie.give
+  rubikscube:
+    description: Gives a Rubik's Cube.
+    usage: /rubikscube
+    permission: rubikscube.give
+  cubanskull:
+    description: Gives a Cuban Skull.
+    usage: /cubanskull
+    permission: cubanskull.give
+  dynamite:
+    description: Gives Dynamite.
+    usage: /dynamite
+    permission: dynamite.give
+  cupidsbow:
+    description: Gives Cupid's Bow.
+    usage: /cupidsbow
+    permission: cupidsbow.give
+  explosivecharge:
+    description: Gives an Explosive Charge.
+    usage: /explosivecharge
+    permission: explosivecharge.give
+  dragonfirework:
+    description: Gives a Dragon Firework.
+    usage: /dragonfirework
+    permission: dragonfirework.give
+  grapplinghook:
+    description: Gives a Grappling Hook.
+    usage: /grapplinghook
+    permission: grapplinghook.give
+  flyrod:
+    description: Gives a Fly Rod.
+    usage: /flyrod
+    permission: flyrod.give
+  parawan:
+    description: Gives a Parawan/Umbrella.
+    usage: /parawan
+    permission: parawan.give
+  gravityaxe:
+    description: Gives a Gravity Axe.
+    usage: /gravityaxe
+    permission: gravityaxe.give
+  poisonpencil:
+    description: Gives a Poison Pencil.
+    usage: /poisonpencil
+    permission: poisonpencil.give
+  areaminerpickaxe:
+    description: Gives an Area Miner Pickaxe.
+    usage: /areaminerpickaxe
+    permission: areaminerpickaxe.give
+  trollsrose:
+    description: Gives the Troll's Rose.
+    usage: /trollsrose
+    permission: trollsrose.give
+  pumpkinsword:
+    description: Gives the Pumpkin Sword.
+    usage: /pumpkinsword
+    permission: pumpkinsword.give
+  swapball:
+    description: Gives a Swap Ball.
+    usage: /swapball
+    permission: swapball.give
+  healingbeetrootsoup:
+    description: Gives Healing Beetroot Soup.
+    usage: /healingbeetrootsoup
+    permission: soup.give
+  totemofpardon:
+    description: Gives a Totem of Pardon.
+    usage: /totemofpardon
+    permission: totemofpardon.give
+  gettempest:
+    description: Gives the Tempest Hammer.
+    usage: /gettempest
+    permission: tempesthammer.get
+  getwall:
+    description: Gives the Unbreakable Wall shield.
+    usage: /getwall
+    permission: shield.get
+  warmmilk:
+    description: Gives Warm Milk.
+    usage: /warmmilk
+    permission: warmmilk.give
+  blindscythe:
+    description: Gives a Blinding Scythe.
+    usage: /blindscythe
+    permission: blindscythe.give
+  balloon:
+    description: Gives a Balloon item.
+    usage: /balloon
+    permission: balloon.give
+  dragonbone:
+    description: Gives a Dragon Bone.
+    usage: /dragonbone
+    permission: dragonbone.give
+  withershot:
+    description: Gives a Blue Wither Skull.
+    usage: /withershot
+    permission: witherskull.give
+  dashsword:
+    description: Gives a Dash Sword that dashes on right-click.
+    usage: /dashsword
+    permission: dashsword.give
+  earthmace:
+    description: Gives a Mace that makes an earthquake on right-click.
+    usage: /earthmace
+    permission: earthmace.give
+  voidsceptre:
+    description: Gives a Void Sceptre that creates a black hole on right-click.
+    usage: /voidsceptre
+    permission: voidsceptre.give
+  wardentear:
+    description: Gives a Warden's Tear that shoots a warden beam on right-click.
+    usage: /wardentear
+    permission: wardentear.give
+  shockwing:
+    description: Gives a Shockwing elytra that charges while flying and creates a shockwave on landing.
+    usage: /shockwing
+    permission: shockwing.give
+  getaway:
+    description: Get the Escape Compass
+    usage: /getaway
+permissions:
+  bedrockbreaker.give:
+    description: Allows giving the Bedrock Breaker.
+    default: op
+  axe30.give:
+    description: Allows giving the Executioner's Axe.
+    default: op
+  lootbundle.give:
+    description: Allows giving the Loot Bundle.
+    default: op
+  bloodthirster.get:
+    description: Allows giving the Bloodthirster sword.
+    default: op
+  carrotcrossbow.give:
+    description: Allows giving the Carrot Crossbow.
+    default: op
+  bunnysword.give:
+    description: Allows giving the Bunny Sword.
+    default: op
+  chorussword.give:
+    description: Allows giving the Chorus Sword.
+    default: op
+  coffee.give:
+    description: Allows giving Radioactive Coffee.
+    default: op
+  crownofanarchy.give:
+    description: Allows giving the Crown of Anarchy.
+    default: op
+  cookie.give:
+    description: Allows giving Grandma's Cookie.
+    default: op
+  rubikscube.give:
+    description: Allows giving the Rubik's Cube.
+    default: op
+  cubanskull.give:
+    description: Allows giving the Cuban Skull.
+    default: op
+  dynamite.give:
+    description: Allows giving Dynamite.
+    default: op
+  cupidsbow.give:
+    description: Allows giving Cupid's Bow.
+    default: op
+  explosivecharge.give:
+    description: Allows giving the Explosive Charge.
+    default: op
+  dragonfirework.give:
+    description: Allows giving the Dragon Firework.
+    default: op
+  grapplinghook.give:
+    description: Allows giving the Grappling Hook.
+    default: op
+  flyrod.give:
+    description: Allows giving the Fly Rod.
+    default: op
+  parawan.give:
+    description: Allows giving the Parawan/Umbrella.
+    default: op
+  gravityaxe.give:
+    description: Allows giving the Gravity Axe.
+    default: op
+  poisonpencil.give:
+    description: Allows giving the Poison Pencil.
+    default: op
+  areaminerpickaxe.give:
+    description: Allows giving the Area Miner Pickaxe.
+    default: op
+  trollsrose.give:
+    description: Allows giving the Troll's Rose.
+    default: op
+  pumpkinsword.give:
+    description: Allows giving the Pumpkin Sword.
+    default: op
+  swapball.give:
+    description: Allows giving the Swap Ball.
+    default: op
+  soup.give:
+    description: Allows giving Healing Beetroot Soup.
+    default: op
+  totemofpardon.give:
+    description: Allows giving the Totem of Pardon.
+    default: op
+  tempesthammer.get:
+    description: Allows giving the Tempest Hammer.
+    default: op
+  shield.get:
+    description: Allows giving the Unbreakable Wall shield.
+    default: op
+  warmmilk.give:
+    description: Allows giving Warm Milk.
+    default: op
+  blindscythe.give:
+    description: Allows giving the Blinding Scythe.
+    default: op
+  balloon.give:
+    description: Allows giving the Balloon item.
+    default: op
+  dragonbone.give:
+    description: Allows giving the Dragon Bone.
+    default: op
+  witherskull.give:
+    description: Allows giving the Blue Wither Skull.
+    default: op
+  dashsword.give:
+    description: Allows giving the Dash Sword.
+    default: op
+  earthmace.give:
+    description: Allows giving the Mace.
+    default: op
+  voidsceptre.give:
+    description: Allows giving the Void Sceptre.
+    default: op
+  wardentear.give:
+    description: Allows giving the Warden's Tear.
+    default: op
+  shockwing.give:
+    description: Allows giving the Shockwing elytra.
+    default: op
+  getaway.give:
+    description: Allows giving the getaway.
+    default: op
+softdepend: [WorldGuard]
